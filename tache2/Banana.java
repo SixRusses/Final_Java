@@ -2,7 +2,7 @@ package m1.examen_final.tache2;
 
 public class Banana {
 
-    private String origin;
+    private final String origin;
     private long value = 50;
 
     public Banana (String origin) {

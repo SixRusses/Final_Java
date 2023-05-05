@@ -1,10 +1,12 @@
 package m1.examen_final.tache2;
 
 public class Orange extends Fruit {
-
+    public String origin;
     private long value;
-    private String origin;
+
     private int seedsLevel;
+
+
 
     // Constructeur
     public Orange (String origin, long value) {
@@ -60,8 +62,13 @@ public class Orange extends Fruit {
         if (!(obj instanceof Orange)) {
             return false;
         }
-        Orange o = (Orange) obj;
-        return this.origin.equals(o.origin) && this.getValue() == o.getValue() && this.seedsLevel == o.seedsLevel;
+        if (origin != null)
+        {
+            Orange o = (Orange) obj;
+            return this.origin.equals(o.origin) && this.getValue() == o.getValue() && this.seedsLevel == o.seedsLevel;
+        }
+
+        return false;
     }
 
 

@@ -15,6 +15,9 @@ public abstract class Fruit {
         this.ticket = ticket;
     }
 
+    protected Fruit() {
+    }
+
     public long getValue() {
         if (ticket != null) {
             return ticket.getValue();
