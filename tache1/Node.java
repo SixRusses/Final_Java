@@ -1,6 +1,11 @@
 package m1.examen_final.tache1;
 
-public class Node {
-    private int value;
-    private Node next;
+class Node {
+    int value;
+    Node next;
+
+    public Node(int value) {
+        this.value = value;
+        this.next = null;
+    }
 }
