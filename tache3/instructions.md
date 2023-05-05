@@ -31,7 +31,7 @@ private static void applyActionOnFiles(File dir,String prefix,FileAction action)
 # Exercice 3 - Vive l'europe, les plaques changent [à la maison]
 Et oui l'europe c'est l'harmonie. Même les plaques d'immatriculation changent. Le nouveau format des plaques d'immatriculation sera : *AA 111 AA* (2 lettres maximum / 3 chiffres maximum / 2 lettres maximum)
 
-1. Combien de voitures européennes peut-il y avoir ?
+1. Combien de voitures européennes peut-il y avoir ? 289 341 840 possibilités
 2. Dans un premier temps proposez une nouvelle implémentation de la classe `NumberPlate` nommée EuropeanNumberPlate .
 3. En fait, on souhaite pouvoir gérer la transition, c'est-à-dire avoir un parc de voitures pouvant posséder des plaques à l'ancienne norme ou à la nouvelle.
 Comment doit-on modifier Car , NumberPlate et EuropeanNumberPlate ?
