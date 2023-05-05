@@ -1,5 +1,5 @@
 # Exercice 1 - *Panier d'oranges*
-1. Dans un paquetage `m1.examen_final.rendu.tache2`, écrire une classe `Orange` contenant 2 champs `value` et `origin` représentant respectivement la valeur (en cts d'euros de type `long`) et le pays d'origine de l'orange (représenté par une chaîne de caractères).
+1. Dans un paquetage `m1.examen_final.rendu.tache1`, écrire une classe `Orange` contenant 2 champs `value` et `origin` représentant respectivement la valeur (en cts d'euros de type `long`) et le pays d'origine de l'orange (représenté par une chaîne de caractères).
 2. Écrire le constructeur prenant en paramètres les valeurs des champs précédents, ainsi que les méthodes `getValue()` et `getOrigin()`.
 3. Écrire une méthode `toString()` qui affiche les caractéristiques de l'orange au format `Orange Floride 0.7`.
 À quoi sert l'annotation `@Override` ? Doit-on l'utiliser dans ce cas ?

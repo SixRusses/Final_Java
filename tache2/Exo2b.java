@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Exo2b {
     public static void main(String[] args) {
+
         ArrayList<Orange> list = new ArrayList<Orange>();
         Orange a = new Orange("France",80);
         Orange b = new Orange("Espagne",90);
@@ -11,6 +12,7 @@ public class Exo2b {
 
         list.add(a);
         list.add(b);
+
 
         System.out.println(list.indexOf(a));
         System.out.println(list.indexOf(b));
